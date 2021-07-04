@@ -79,3 +79,6 @@ a {
   border-left: 7px solid;
   border-image: linear-gradient(rgb(94, 253, 179), blue) 27;
 }
+footer p{
+  text-align: center;
+}
