@@ -41,3 +41,16 @@ background-image: url(/developer-portfolio-master/images/top-banner.png);
 .half-width img{
     width: 80%;
 }
+.mid{
+  display: flex;
+background-repeat: no-repeat;
+background-image: url(/developer-portfolio-master/images/dream-bg.png);
+background-position:right ;
+}
+#team{
+  padding-right: 30px;
+  color: black;
+  font-weight: 400;
+  font-family: 'viga', sans-serif;
+}
+
