@@ -11,14 +11,14 @@ span {
 h1 {
   font-size: 30px;
 }
-button{
-    background-image: linear-gradient(skyblue , aqua );
-    font-family:"Oswald", sans-serif ;
-    border: none;
-    
-    padding: 10px 40px;
-    font-size: 15px;  
-    border-radius: 7%;
+button {
+  background-image: linear-gradient(skyblue, aqua);
+  font-family: "Oswald", sans-serif;
+  border: none;
+
+  padding: 10px 40px;
+  font-size: 15px;
+  border-radius: 7%;
 }
 
 a {
@@ -26,31 +26,56 @@ a {
   color: black;
   font-weight: 600;
 }
-.header{
-display: flex;
-background-repeat: no-repeat;
-background-image: url(/developer-portfolio-master/images/top-banner.png);
+.header {
+  display: flex;
+  background-repeat: no-repeat;
+  background-image: url(/developer-portfolio-master/images/top-banner.png);
 }
 
-.half-width{
-    width: 50%;
-    margin-top: 10px;
-    margin-left: 60px;
-    padding-left: 10px;
+.half-width {
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 60px;
+  padding-left: 10px;
 }
-.half-width img{
-    width: 80%;
+.half-width img {
+  width: 80%;
 }
-.mid{
+.mid {
   display: flex;
-background-repeat: no-repeat;
-background-image: url(/developer-portfolio-master/images/dream-bg.png);
-background-position:right ;
+  background-repeat: no-repeat;
+  background-image: url(/developer-portfolio-master/images/dream-bg.png);
+  background-position: right;
 }
-#team{
+#team {
   padding-right: 30px;
   color: black;
   font-weight: 400;
-  font-family: 'viga', sans-serif;
+  font-family: "viga", sans-serif;
 }
-
+.card01 {
+  display: flex;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-image: url(/developer-portfolio-master/images/exp-bg.png);
+}
+.card {
+  text-align: center;
+}
+.exel {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 0.5px;
+  box-shadow: 2px 5px 8px 0px aquamarine;
+ border-radius: 5%;
+}
+#xel01 {
+  border-left: 7px solid;
+  border-image: linear-gradient(red, blue) 27;
+}
+#xel02 {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(94, 253, 179), blue) 27;
+}
